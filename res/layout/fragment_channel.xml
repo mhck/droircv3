@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:fillViewport="false" >
+
+        <TextView
+            android:id="@+id/chatwindow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#42B2FF"
+            android:gravity="left"
+            android:text=""
+            android:textSize="14sp" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:ems="10"
+        android:hint="@string/entermsghere"
+        android:inputType="text"
+        android:onClick="message" >
+    </EditText>
+</RelativeLayout>

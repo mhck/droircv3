@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">droirc</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_pic">droirc picture</string>
+    <string name="title_activity_menu">droIRC</string>
+	<string name="nickname_label">Nickname:</string>
+	<string name="entermsghere">Enter chat message here</string>
+</resources>
